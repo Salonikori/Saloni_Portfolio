@@ -11,11 +11,12 @@ Check out the live version here:
 ---
 
 ## 📁 Project Structure
-/
-├── index.html # Main HTML file
-├── style.css # Custom CSS styling
-├── script.js # JavaScript for navigation/smooth scroll
-└── README.md # This file
+
+├── index.html     # Main HTML file  
+├── style.css      # Custom CSS styling  
+├── script.js      # JavaScript for navigation/smooth scroll  
+└── README.md      # Project documentation
+
 
 
 ---
