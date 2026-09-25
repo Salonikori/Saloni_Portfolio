@@ -43,9 +43,4 @@ Check out the live version here:
 - Achievements
 - Skills & Tools
 
----
 
-## 📌 How to Use / Modify
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/Salonikori/Saloni_Portfolio.git
