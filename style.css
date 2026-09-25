@@ -2348,7 +2348,6 @@ height: 70px;
 .nav-menu {
 position: fixed;
 
-```
 top: 70px;
 left: 17px;
 right: 17px;
@@ -2375,7 +2374,6 @@ transition:
   opacity .25s ease,
   visibility .25s ease,
   transform .25s ease;
-```
 
 }
 
@@ -2388,11 +2386,9 @@ transform: translateY(0);
 .nav-menu li a {
 display: block;
 
-```
 padding: 13px;
 
 border-radius: 6px;
-```
 
 }
 
@@ -2447,29 +2443,23 @@ grid-template-columns: 30px 1fr;
 .timeline-date {
 grid-column: 2;
 
-```
 grid-row: 1;
 
 padding: 0 0 10px 25px;
-```
 
 }
 
 .timeline-marker {
 grid-column: 1;
 
-```
 grid-row: 1 / span 2;
-```
 
 }
 
 .timeline-content {
 grid-column: 2;
 
-```
 padding-left: 25px;
-```
 
 }
 
@@ -2492,9 +2482,7 @@ padding: 85px 0;
 .section-heading {
 grid-template-columns: 40px 1fr;
 
-```
 margin-bottom: 50px;
-```
 
 }
 
@@ -2522,9 +2510,7 @@ font-size: .9rem;
 flex-direction: column;
 align-items: stretch;
 
-```
 margin-bottom: 45px;
-```
 
 }
 
@@ -2539,9 +2525,7 @@ grid-template-columns: 1fr 1fr;
 .stat-card {
 min-height: 145px;
 
-```
 padding: 20px;
-```
 
 }
 
@@ -2624,9 +2608,7 @@ grid-template-columns: 1fr;
 .project-filters {
 width: 100%;
 
-```
 overflow-x: auto;
-```
 
 }
 
