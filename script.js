@@ -43,7 +43,6 @@ MOBILE NAVIGATION
 
 if (menuToggle && navMenu) {
 
-```
 menuToggle.addEventListener("click", () => {
 
   const isOpen = navMenu.classList.toggle("open");
@@ -74,7 +73,6 @@ navLinks.forEach(link => {
   });
 
 });
-```
 
 }
 
@@ -84,7 +82,6 @@ NAVBAR SCROLL EFFECT
 
 const updateNavbar = () => {
 
-```
 if (!navbar) return;
 
 if (window.scrollY > 35) {
@@ -92,7 +89,6 @@ if (window.scrollY > 35) {
 } else {
   navbar.classList.remove("scrolled");
 }
-```
 
 };
 
@@ -102,7 +98,6 @@ ACTIVE NAVIGATION
 
 const updateActiveNav = () => {
 
-```
 let currentSection = "";
 
 const scrollPosition =
@@ -139,7 +134,6 @@ navLinks.forEach(link => {
   }
 
 });
-```
 
 };
 
@@ -151,7 +145,6 @@ const revealObserver =
 new IntersectionObserver(
 entries => {
 
-```
     entries.forEach(entry => {
 
       if (entry.isIntersecting) {
@@ -170,13 +163,10 @@ entries => {
     rootMargin: "0px 0px -45px 0px"
   }
 );
-```
 
 revealElements.forEach(element => {
 
-```
 revealObserver.observe(element);
-```
 
 });
 
@@ -186,7 +176,6 @@ PROJECT FILTERING
 
 filterButtons.forEach(button => {
 
-```
 button.addEventListener("click", () => {
 
   const filter =
@@ -232,7 +221,6 @@ button.addEventListener("click", () => {
   });
 
 });
-```
 
 });
 
@@ -242,7 +230,6 @@ PROJECT MODAL
 
 const projectData = {
 
-```
 "HR Onboarding Checklist Assistant": {
   label: "FULL-STACK · INTELLIGENT SEARCH",
 
@@ -338,13 +325,11 @@ const projectData = {
     "Autonomous Robotics"
   ]
 }
-```
 
 };
 
 const openProjectModal = card => {
 
-```
 const title =
   card.querySelector("h3")?.textContent.trim();
 
@@ -386,13 +371,11 @@ modal.setAttribute(
 );
 
 document.body.classList.add("modal-open");
-```
 
 };
 
 const closeProjectModal = () => {
 
-```
 if (!modal) return;
 
 modal.classList.remove("active");
@@ -403,13 +386,11 @@ modal.setAttribute(
 );
 
 document.body.classList.remove("modal-open");
-```
 
 };
 
 projectCards.forEach(card => {
 
-```
 card.addEventListener("click", event => {
 
   /*
@@ -431,29 +412,24 @@ card.addEventListener("click", event => {
 });
 
 card.style.cursor = "pointer";
-```
 
 });
 
 if (modalClose) {
 
-```
 modalClose.addEventListener(
   "click",
   closeProjectModal
 );
-```
 
 }
 
 if (modalOverlay) {
 
-```
 modalOverlay.addEventListener(
   "click",
   closeProjectModal
 );
-```
 
 }
 
@@ -461,7 +437,6 @@ document.addEventListener(
 "keydown",
 event => {
 
-```
   if (event.key === "Escape") {
 
     closeProjectModal();
@@ -469,7 +444,6 @@ event => {
   }
 
 }
-```
 
 );
 
@@ -479,7 +453,6 @@ BACK TO TOP
 
 const updateBackToTop = () => {
 
-```
 if (!backToTop) return;
 
 if (window.scrollY > 650) {
@@ -491,13 +464,11 @@ if (window.scrollY > 650) {
   backToTop.classList.remove("show");
 
 }
-```
 
 };
 
 if (backToTop) {
 
-```
 backToTop.addEventListener(
   "click",
   () => {
@@ -509,7 +480,6 @@ backToTop.addEventListener(
 
   }
 );
-```
 
 }
 
@@ -524,7 +494,6 @@ document.querySelectorAll(
 
 emailLinks.forEach(link => {
 
-```
 link.addEventListener(
   "contextmenu",
   async event => {
@@ -551,13 +520,11 @@ link.addEventListener(
 
   }
 );
-```
 
 });
 
 function showToast(message) {
 
-```
 if (!toast) return;
 
 toast.textContent = message;
@@ -570,7 +537,6 @@ setTimeout(() => {
   toast.classList.remove("show");
 
 }, 2300);
-```
 
 }
 
@@ -586,7 +552,6 @@ heroGrid &&
 window.matchMedia("(pointer:fine)").matches
 ) {
 
-```
 document.addEventListener(
   "mousemove",
   event => {
@@ -603,7 +568,6 @@ document.addEventListener(
 
   }
 );
-```
 
 }
 
@@ -615,7 +579,6 @@ let ticking = false;
 
 const handleScroll = () => {
 
-```
 if (!ticking) {
 
   window.requestAnimationFrame(() => {
@@ -633,7 +596,6 @@ if (!ticking) {
   ticking = true;
 
 }
-```
 
 };
 
