@@ -1,361 +1,1210 @@
-
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saloni Kori | Computer Science Student & Robotics Leader</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+     content="Saloni Kori — Computer Science Engineering student building software, robotics and intelligent systems."> <meta name="author" content="Saloni Kori">
+
+  <title>Saloni Kori | Software & Robotics Engineering</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <!-- Background -->
+
+  <div class="noise"></div>
+
   <!-- Navigation -->
-  <nav>
-    <div class="nav-container">
-      <div class="logo">Saloni Kori</div>
-      <ul class="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+
+```
+  <a href="#home" class="brand">
+    <span class="brand-mark">SK</span>
+    <span>Saloni Kori</span>
+  </a>
+
+  <button class="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false">
+    <span></span>
+    <span></span>
+  </button>
+
+  <ul class="nav-menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <a href="mailto:salonikori1314@gmail.com" class="nav-cta">
+    Let's connect <span>↗</span>
+  </a>
+
+</div>
+```
+
   </nav>
 
-  <!-- Hero Section -->
-  <header id="home">
-    <div class="hero">
-      <h1>Saloni Kori</h1>
-      <p class="subtitle">Computer Science Engineering Student</p>
-      <p class="tagline">Passionate about leadership, innovation, and student empowerment through technology</p>
-      <div class="contact-info">
-        <span>📍 Mumbai</span> |
-        <a href="mailto:salonikori1314@gmail.com">✉️ salonikori1314@gmail.com</a> |
-        <a href="tel:+917400294248">📱 7400294248</a> |
-        <a href="https://www.linkedin.com/in/saloni-kori-860b86261" target="_blank">💼 LinkedIn</a>
+  <main>
+
+```
+<!-- HERO -->
+<section class="hero" id="home">
+
+  <div class="hero-grid"></div>
+
+  <div class="hero-content container">
+
+    <div class="availability">
+      <span class="status-dot"></span>
+      <span>Computer Science Engineering Student</span>
+    </div>
+
+    <p class="eyebrow">
+      SOFTWARE <span>×</span> ROBOTICS <span>×</span> LEADERSHIP
+    </p>
+
+    <h1>
+      Building systems that
+      <span class="gradient-text">think, move & scale.</span>
+    </h1>
+
+    <p class="hero-description">
+      I'm <strong>Saloni Kori</strong>, a Computer Science Engineering student
+      at Pillai College of Engineering. I build full-stack applications,
+      intelligent systems and robotics projects while exploring the intersection
+      of software, hardware and real-world problem solving.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">
+        Explore my work <span>↓</span>
+      </a>
+
+      <a href="mailto:salonikori1314@gmail.com" class="btn btn-secondary">
+        Get in touch <span>↗</span>
+      </a>
+    </div>
+
+    <div class="hero-meta">
+      <div>
+        <span class="meta-label">Based in</span>
+        <strong>Mumbai, India</strong>
+      </div>
+
+      <div>
+        <span class="meta-label">Currently</span>
+        <strong>B.Tech CSE · 2024–2028</strong>
+      </div>
+
+      <div>
+        <span class="meta-label">Focus</span>
+        <strong>Software + Robotics</strong>
       </div>
     </div>
-  </header>
 
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="container">
-      <h2>About Me</h2>
-      <div class="about-content">
-        <div class="about-text">
-          <p>I'm a 2<sup>nd</sup>-year Computer Science Engineering student at Pillai College, passionate about leadership, innovation, and student empowerment. With experience leading all-girls robotics teams and participating in national STEM and leadership programs, I bring a unique blend of technical expertise and interpersonal strength.</p>
-          
-          <div class="stats">
-            <div class="stat">
-              <h3>9.68</h3>
-              <p>Average SGPI</p>
-            </div>
-            <div class="stat">
-              <h3>4+</h3>
-              <p>Years in STEM</p>
-            </div>
-            <div class="stat">
-              <h3>EY Scholar</h3>
-              <p>Merit-Based Award</p>
-            </div>
-            <div class="stat">
-              <h3>Programming Team Lead</h3>
-              <p>Robotics Projects</p>
-            </div>
-          </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>SCROLL TO EXPLORE</span>
+    <div class="scroll-line"></div>
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="section about-section" id="about">
+
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-number">01</span>
+      <div>
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Curious by nature.<br><span>Builder by choice.</span></h2>
+      </div>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="about-copy reveal">
+        <p class="lead">
+          I'm a second-year Computer Science Engineering student who enjoys
+          turning ideas into working systems.
+        </p>
+
+        <p>
+          My work spans full-stack web development, intelligent search,
+          robotics simulation, embedded systems and computer vision.
+          I enjoy projects where software has to interact with something
+          real — whether that's a robot, a sensor, a workflow or a group
+          of people.
+        </p>
+
+        <p>
+          Outside technical work, I've led robotics teams, represented
+          500+ students through the Student Council and coordinated
+          technical events. These experiences have shaped how I approach
+          engineering: understand the problem, communicate clearly,
+          build iteratively and keep learning.
+        </p>
+
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/saloni-kori-860b86261"
+             target="_blank"
+             rel="noopener noreferrer">
+            LinkedIn <span>↗</span>
+          </a>
+
+          <a href="mailto:salonikori1314@gmail.com">
+            Email <span>↗</span>
+          </a>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Education Section -->
-  <section id="education">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="entry">
-        <h3>B.Tech in Computer Science Engineering | 2024 – 2028</h3>
-        <p><strong>Pillai College of Engineering</strong></p>
-        <ul>
-          <li>Current SGPI: Sem 1: 9.36 | Sem 2: 10.0</li>
-          <li>Focus on software development, robotics, and leadership</li>
-        </ul>
-      </div>
 
-      <div class="entry">
-        <h3>Higher Secondary Certificate (HSC) | 2022 – 2024</h3>
-        <p><strong>Ramnarain Ruia College</strong> — Science Stream</p>
-        <ul>
-          <li>12th Board: 86.17% | MHT-CET: 96.27 Percentile</li>
-          <li>Strong foundation in Mathematics, Physics, and Chemistry</li>
-        </ul>
-      </div>
+      <div class="stats-grid reveal">
 
-      <div class="entry">
-        <h3>Avasara Leadership Development Program | 2019 – 2022</h3>
-        <p><strong>Leadership and Communication Training</strong></p>
-        <ul>
-          <li>Comprehensive leadership and communication skills development</li>
-          <li>Focus on empowerment and inclusive growth mindset</li>
-        </ul>
-      </div>
-
-      <div class="entry">
-        <h3>Secondary School Certificate (SSC) | 2022</h3>
-        <p><strong>Jafari English High School</strong></p>
-        <ul>
-          <li>10th Grade: 92% | Ranked 1st in School</li>
-          <li>Strong academic foundation and discipline</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience Section -->
-  <section id="experience">
-    <div class="container">
-      <h2>Professional Experience</h2>
-
-      <div class="entry">
-        <h3>Robotics Simulation Intern | Jun 2025 – Present</h3>
-        <p><strong>Self-Balancing Robot Internship</strong> — Panvel, India</p>
-        <ul>
-          <li>Working on simulation and control of a self-balancing robot using CoppeliaSim</li>
-          <li>Exploring integration with ROS 2 and Gazebo for robot modeling and visualization</li>
-          <li>Applying real-world physics, control logic, and simulation techniques</li>
-        </ul>
-      </div>
-
-      <div class="entry">
-        <h3>Young Technology Scholar | Jun 2023</h3>
-        <p><strong>Plaksha University</strong> — Mohali, Punjab</p>
-        <ul>
-          <li>Selected for a 15-day summer program focused on innovation and technology</li>
-          <li>Collaborated on an ECG project using bio-sensors, signal processing, and microcontrollers</li>
-          <li>Gained exposure to biomedical engineering and real-world technology applications</li>
-        </ul>
-      </div>
-
-      <div class="entry">
-        <h3>Programming Team Lead | 2021 – 2023</h3>
-        <p><strong>FIRST Tech Challenge</strong> — Mumbai, India</p>
-        <ul>
-          <li>Led the all-girls team <em>Aeonian Ladies Force</em> in robot design and programming for two seasons</li>
-          <li>Developed autonomous and driver-controlled routines using Java and hardware integration</li>
-          <li>Built teamwork and iterative development skills in a competitive robotics environment</li>
-        </ul>
-      </div>
-
-      <div class="entry">
-        <h3>STEM Student | 2021 – 2023</h3>
-        <p><strong>The Innovation Story</strong> — Mumbai, India</p>
-        <ul>
-          <li>Created Arduino-powered projects like escape rooms and interactive LED games</li>
-          <li>Gained hands-on experience with Python, Java, microcontrollers, 3D printing, and CAD tools</li>
-          <li>Developed real-world problem solving and technical prototyping skills</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="container">
-      <h2>Featured Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-icon">🤖</div>
-          <h3>Autonomous Robot for FTC</h3>
-          <p>Programmed autonomous routines using Java and FTC SDK for competition. Implemented computer vision for object detection and navigation with optimized real-time performance.</p>
-          <div class="tech-stack">
-            <span>Java</span>
-            <span>FTC SDK</span>
-            <span>Computer Vision</span>
-            <span>Android</span>
-          </div>
+        <div class="stat-card">
+          <span class="stat-number">9.78</span>
+          <span class="stat-label">Average SGPI<br>through Semester 4</span>
         </div>
 
-        <div class="project-card">
-          <div class="project-icon">🔓</div>
-          <h3>Interactive Escape Room</h3>
-          <p>Built multi-stage escape puzzles using Arduino, sensors, and actuators. Engineered hardware connections with integrated control logic for seamless puzzle flow.</p>
-          <div class="tech-stack">
+        <div class="stat-card">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Students represented<br>as Principal Nominee</span>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-number">96.27</span>
+          <span class="stat-label">MHT-CET<br>percentile</span>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-number">2×</span>
+          <span class="stat-label">State-level robotics<br>competition seasons</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+<section class="section experience-section" id="experience">
+
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-number">02</span>
+      <div>
+        <p class="eyebrow">EXPERIENCE</p>
+        <h2>Where I've <span>built & led.</span></h2>
+      </div>
+    </div>
+
+
+    <div class="timeline">
+
+      <!-- Embedded -->
+      <article class="timeline-item reveal">
+
+        <div class="timeline-marker">
+          <span></span>
+        </div>
+
+        <div class="timeline-date">
+          DEC 2025<br>— JAN 2026
+        </div>
+
+        <div class="timeline-content">
+
+          <div class="experience-top">
+            <div>
+              <p class="role-type">INTERNSHIP · EMBEDDED SYSTEMS</p>
+              <h3>Embedded Systems Intern</h3>
+              <p class="company">BMI Index Sensor System</p>
+            </div>
+
+            <span class="experience-index">01</span>
+          </div>
+
+          <p>
+            Designed and deployed a real-time BMI monitoring platform
+            integrating Arduino hardware with a React.js and Tailwind CSS
+            frontend, REST API layer and cloud deployment.
+          </p>
+
+          <ul>
+            <li>Eliminated paper-based health tracking for 30+ users.</li>
+            <li>Connected physical sensor data with a web-based monitoring workflow.</li>
+            <li>Worked across hardware, frontend, APIs and deployment.</li>
+          </ul>
+
+          <div class="tag-row">
             <span>Arduino</span>
-            <span>C++</span>
+            <span>React.js</span>
+            <span>Tailwind CSS</span>
+            <span>REST API</span>
+            <span>Cloud</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Robotics -->
+      <article class="timeline-item reveal">
+
+        <div class="timeline-marker">
+          <span></span>
+        </div>
+
+        <div class="timeline-date">
+          MAY 2025<br>— JUN 2025
+        </div>
+
+        <div class="timeline-content">
+
+          <div class="experience-top">
+            <div>
+              <p class="role-type">INTERNSHIP · ROBOTICS</p>
+              <h3>Robotics & Simulation Intern</h3>
+              <p class="company">Self-Balancing Robot</p>
+            </div>
+
+            <span class="experience-index">02</span>
+          </div>
+
+          <p>
+            Worked on autonomous balancing and simulation workflows for a
+            self-balancing robot using ROS 2, Gazebo and CoppeliaSim.
+          </p>
+
+          <ul>
+            <li>Implemented and optimized PID control workflows.</li>
+            <li>Tested stable locomotion across 5+ terrain simulations.</li>
+            <li>Explored robot modelling, visualization and physics-based simulation.</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>ROS 2</span>
+            <span>Gazebo</span>
+            <span>CoppeliaSim</span>
+            <span>PID</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Student Council -->
+      <article class="timeline-item reveal">
+
+        <div class="timeline-marker">
+          <span></span>
+        </div>
+
+        <div class="timeline-date">
+          AUG 2025<br>— JUL 2026
+        </div>
+
+        <div class="timeline-content">
+
+          <div class="experience-top">
+            <div>
+              <p class="role-type">LEADERSHIP · STUDENT COUNCIL</p>
+              <h3>Principal Nominee</h3>
+              <p class="company">Pillai College of Engineering</p>
+            </div>
+
+            <span class="experience-index">03</span>
+          </div>
+
+          <p>
+            Represented 500+ students as a principal liaison between
+            students, faculty and administration.
+          </p>
+
+          <ul>
+            <li>Coordinated 10+ academic and technical initiatives.</li>
+            <li>Communicated student concerns and requirements to administration.</li>
+            <li>Worked with cross-functional student and faculty teams.</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>Leadership</span>
+            <span>Communication</span>
+            <span>Coordination</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Alegria -->
+      <article class="timeline-item reveal">
+
+        <div class="timeline-marker">
+          <span></span>
+        </div>
+
+        <div class="timeline-date">
+          DEC 2025<br>— FEB 2026
+        </div>
+
+        <div class="timeline-content">
+
+          <div class="experience-top">
+            <div>
+              <p class="role-type">TECHNICAL TEAM · ALEGRIA 2026</p>
+              <h3>Technical Team Member</h3>
+              <p class="company">College Technical Fest</p>
+            </div>
+
+            <span class="experience-index">04</span>
+          </div>
+
+          <p>
+            Coordinated technical execution for workshops and competitive
+            events as part of the Alegria 2026 technical team.
+          </p>
+
+          <ul>
+            <li>Supported 8+ workshops and technical competitions.</li>
+            <li>Collaborated with multiple teams during event preparation.</li>
+            <li>Helped reduce pre-event setup time by 20%.</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>Event Operations</span>
+            <span>Technical Coordination</span>
+            <span>Teamwork</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- FIRST -->
+      <article class="timeline-item reveal">
+
+        <div class="timeline-marker">
+          <span></span>
+        </div>
+
+        <div class="timeline-date">
+          2021<br>— 2023
+        </div>
+
+        <div class="timeline-content">
+
+          <div class="experience-top">
+            <div>
+              <p class="role-type">ROBOTICS · FIRST TECH CHALLENGE</p>
+              <h3>Programming Team Lead</h3>
+              <p class="company">Aeonian Ladies Force</p>
+            </div>
+
+            <span class="experience-index">05</span>
+          </div>
+
+          <p>
+            Led a 6-member all-girls robotics team across two FIRST Tech
+            Challenge seasons.
+          </p>
+
+          <ul>
+            <li>Engineered autonomous routines in Java.</li>
+            <li>Integrated computer vision for real-time object detection.</li>
+            <li>Advanced to state-level competition for two consecutive years.</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>Java</span>
+            <span>Computer Vision</span>
+            <span>Robotics</span>
+            <span>Leadership</span>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section class="section projects-section" id="projects">
+
+  <div class="container">
+
+    <div class="projects-header reveal">
+
+      <div class="section-heading">
+        <span class="section-number">03</span>
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Things I've <span>built.</span></h2>
+        </div>
+      </div>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="software">Software</button>
+        <button class="filter-btn" data-filter="robotics">Robotics</button>
+        <button class="filter-btn" data-filter="hardware">Hardware</button>
+      </div>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project-card featured-project reveal"
+               data-category="software">
+
+        <div class="project-number">01</div>
+
+        <div class="project-visual onboarding-visual">
+          <div class="visual-window">
+            <div class="window-top">
+              <span></span><span></span><span></span>
+            </div>
+
+            <div class="dashboard-lines">
+              <div class="dashboard-line large"></div>
+              <div class="dashboard-line"></div>
+              <div class="dashboard-line short"></div>
+
+              <div class="dashboard-cards">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-label">FULL-STACK · INTELLIGENT SEARCH</div>
+
+          <h3>HR Onboarding Checklist Assistant</h3>
+
+          <p>
+            Full-stack onboarding platform with employee and HR portals,
+            task tracking and intelligent assistance using semantic search.
+          </p>
+
+          <ul class="project-highlights">
+            <li>Transformer embeddings + cosine similarity</li>
+            <li>Automated reminders and HR workflows</li>
+            <li>Audit logging and REST API architecture</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>React.js</span>
+            <span>SQLite</span>
+            <span>APScheduler</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Project 2 -->
+      <article class="project-card reveal"
+               data-category="software">
+
+        <div class="project-number">02</div>
+
+        <div class="project-visual canteen-visual">
+          <div class="vendor-ui">
+            <div class="vendor-sidebar"></div>
+
+            <div class="vendor-main">
+              <div class="vendor-header"></div>
+
+              <div class="order-row">
+                <span></span><span></span>
+              </div>
+
+              <div class="order-row">
+                <span></span><span></span>
+              </div>
+
+              <div class="order-row">
+                <span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-label">FULL-STACK · ROLE-BASED SYSTEM</div>
+
+          <h3>Multi-Vendor Canteen Management</h3>
+
+          <p>
+            Responsive multi-vendor web application connecting customers,
+            vendors and order workflows through role-based dashboards.
+          </p>
+
+          <ul class="project-highlights">
+            <li>5+ vendor dashboards and menu management</li>
+            <li>Order processing and live order tracking</li>
+            <li>REST API based customer/vendor workflows</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>React.js</span>
+            <span>Tailwind CSS</span>
+            <span>REST APIs</span>
+            <span>RBAC</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Project 3 -->
+      <article class="project-card reveal"
+               data-category="robotics">
+
+        <div class="project-number">03</div>
+
+        <div class="project-visual robot-visual">
+          <div class="robot-grid"></div>
+
+          <div class="robot">
+            <div class="robot-body">
+              <div class="robot-eye"></div>
+              <div class="robot-eye"></div>
+            </div>
+
+            <div class="robot-wheel left"></div>
+            <div class="robot-wheel right"></div>
+          </div>
+
+          <div class="signal signal-1"></div>
+          <div class="signal signal-2"></div>
+          <div class="signal signal-3"></div>
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-label">ROBOTICS · CONTROL SYSTEMS</div>
+
+          <h3>Self-Balancing Robot</h3>
+
+          <p>
+            Simulation and control system for autonomous balancing,
+            exploring PID control and physics-based robot behaviour.
+          </p>
+
+          <ul class="project-highlights">
+            <li>ROS 2 robot integration</li>
+            <li>Gazebo + CoppeliaSim simulation</li>
+            <li>PID control optimization</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>ROS 2</span>
+            <span>Gazebo</span>
+            <span>CoppeliaSim</span>
+            <span>PID</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Project 4 -->
+      <article class="project-card reveal"
+               data-category="hardware">
+
+        <div class="project-number">04</div>
+
+        <div class="project-visual ecg-visual">
+          <div class="ecg-grid"></div>
+
+          <svg class="ecg-line"
+               viewBox="0 0 500 120"
+               preserveAspectRatio="none"
+               aria-hidden="true">
+            <polyline
+              points="0,70 80,70 105,70 125,65 140,70 165,70 185,20 200,105 220,70 270,70 295,70 320,45 335,70 370,70 390,70 410,25 425,95 445,70 500,70"
+            />
+          </svg>
+
+          <span class="ecg-label">ECG SIGNAL</span>
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-label">BIOMEDICAL · HARDWARE</div>
+
+          <h3>ECG Monitoring System</h3>
+
+          <p>
+            Collaborative biomedical engineering project developed during
+            the Young Technology Scholars program at Plaksha University.
+          </p>
+
+          <ul class="project-highlights">
+            <li>Bio-sensor based ECG acquisition</li>
+            <li>Signal processing exploration</li>
+            <li>Microcontroller hardware integration</li>
+          </ul>
+
+          <div class="tag-row">
+            <span>Bio-sensors</span>
+            <span>Microcontrollers</span>
+            <span>Signal Processing</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Project 5 -->
+      <article class="project-card reveal"
+               data-category="robotics hardware">
+
+        <div class="project-number">05</div>
+
+        <div class="project-visual escape-visual">
+          <div class="escape-lock">
+            <span class="lock-symbol">⌁</span>
+            <span class="lock-text">SYSTEM<br>LOCKED</span>
+          </div>
+
+          <div class="escape-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="project-body">
+
+          <div class="project-label">PROTOTYPING · ARDUINO</div>
+
+          <h3>Interactive Escape Room</h3>
+
+          <p>
+            Arduino-powered interactive puzzle system combining sensors,
+            LEDs and control logic into a multi-stage experience.
+          </p>
+
+          <div class="tag-row">
+            <span>Arduino</span>
+            <span>Python</span>
             <span>Sensors</span>
             <span>LEDs</span>
           </div>
+
         </div>
 
-        <div class="project-card">
-          <div class="project-icon">⚖️</div>
-          <h3>Self-Balancing Robot</h3>
-          <p>Currently developing a simulation-based self-balancing robot using advanced robotics frameworks and control systems for realistic physics modeling.</p>
-          <div class="tech-stack">
-            <span>CoppeliaSim</span>
-            <span>ROS 2</span>
-            <span>Gazebo</span>
-            <span>Control Systems</span>
+      </article>
+
+
+      <!-- Project 6 -->
+      <article class="project-card reveal"
+               data-category="robotics">
+
+        <div class="project-number">06</div>
+
+        <div class="project-visual vision-visual">
+          <div class="camera-frame">
+            <span class="corner tl"></span>
+            <span class="corner tr"></span>
+            <span class="corner bl"></span>
+            <span class="corner br"></span>
+
+            <div class="target-box">
+              <span>OBJECT</span>
+            </div>
           </div>
         </div>
 
-        <div class="project-card">
-          <div class="project-icon">❤️</div>
-          <h3>ECG Monitoring System</h3>
-          <p>Collaborated on an ECG project using bio-sensors and signal processing during the Plaksha YTS program, exploring biomedical engineering applications.</p>
-          <div class="tech-stack">
-            <span>Bio-sensors</span>
-            <span>Signal Processing</span>
-            <span>Microcontrollers</span>
-            <span>Python</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="project-body">
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <div class="container">
-      <h2>Skills & Technologies</h2>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3>Programming Languages</h3>
-          <div class="skill-tags">
+          <div class="project-label">COMPUTER VISION · ROBOTICS</div>
+
+          <h3>FTC Autonomous Routines</h3>
+
+          <p>
+            Developed autonomous robot routines and computer vision
+            workflows for FIRST Tech Challenge competitions.
+          </p>
+
+          <div class="tag-row">
             <span>Java</span>
-            <span>C</span>
-            <span>C++</span>
-            <span>Python</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3>Tools & Platforms</h3>
-          <div class="skill-tags">
-            <span>Arduino</span>
-            <span>CoppeliaSim</span>
-            <span>ROS 2</span>
-            <span>Gazebo</span>
-            <span>Fusion 360</span>
-            <span>SolidWorks</span>
-          </div>
-        </div>
-
-        <div class="skill-category">
-          <h3>Technical Skills</h3>
-          <div class="skill-tags">
-            <span>Robotics</span>
-            <span>Microcontrollers</span>
             <span>Computer Vision</span>
-            <span>Signal Processing</span>
-            <span>3D Printing</span>
-            <span>CAD Design</span>
+            <span>FTC</span>
+            <span>Robotics</span>
           </div>
+
         </div>
 
-        <div class="skill-category">
-          <h3>Soft Skills</h3>
-          <div class="skill-tags">
-            <span>Leadership</span>
-            <span>Project Management</span>
-            <span>Public Speaking</span>
-            <span>Teamwork</span>
-            <span>Communication</span>
-          </div>
-        </div>
+      </article>
 
-        <div class="skill-category">
-          <h3>Languages</h3>
-          <div class="skill-tags">
-            <span>English</span>
-            <span>Hindi</span>
-            <span>Marathi</span>
-          </div>
-        </div>
+    </div>
 
-        <div class="skill-category">
-          <h3>Office Tools</h3>
-          <div class="skill-tags">
-            <span>MS Office</span>
-            <span>PowerPoint</span>
-            <span>Documentation</span>
-          </div>
-        </div>
+  </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section class="section skills-section" id="skills">
+
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-number">04</span>
+      <div>
+        <p class="eyebrow">TOOLBOX</p>
+        <h2>Technologies I <span>work with.</span></h2>
       </div>
     </div>
-  </section>
 
-  <!-- Achievements Section -->
-  <section id="achievements">
-    <div class="container">
-      <h2>Achievements & Recognition</h2>
-      <div class="entry">
-        <h3>EY Foundation Scholar | Jul 2022</h3>
-        <p><strong>Ernst & Young Foundation</strong></p>
-        <ul>
-          <li>Selected among top-performing students across Maharashtra by Ernst & Young (EY)</li>
-          <li>Earned merit-based scholarship for academic excellence after Class 10</li>
-          <li>Recognized for leadership potential and commitment to innovation and social impact</li>
-        </ul>
+
+    <div class="skills-layout">
+
+      <div class="skill-intro reveal">
+        <p class="lead">
+          A growing engineering toolkit shaped by projects,
+          internships and competitive robotics.
+        </p>
+
+        <p>
+          I like learning technologies by building with them rather
+          than collecting them. My strongest interests currently sit
+          around full-stack development, intelligent systems and
+          robotics.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-    <div class="container">
-      <h2>Get In Touch</h2>
-      <p>I'm always interested in discussing new opportunities, collaborations, or just connecting with fellow tech enthusiasts!</p>
-      <div class="contact-links">
-        <a href="mailto:salonikori1314@gmail.com" class="contact-link">
-          <span>📧</span>
+
+      <div class="skills-list reveal">
+
+        <div class="skill-group">
+          <span class="skill-index">01</span>
           <div>
-            <h4>Email</h4>
-            <p>salonikori1314@gmail.com</p>
-          </div>
-        </a>
-        <a href="tel:+917400294248" class="contact-link">
-          <span>📱</span>
-          <div>
-            <h4>Phone</h4>
-            <p>+91 7400294248</p>
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/in/saloni-kori-860b86261" target="_blank" class="contact-link">
-          <span>💼</span>
-          <div>
-            <h4>LinkedIn</h4>
-            <p>Connect with me professionally</p>
-          </div>
-        </a>
-        <div class="contact-link">
-          <span>📍</span>
-          <div>
-            <h4>Location</h4>
-            <p>Mumbai, India</p>
+            <h3>Languages</h3>
+            <div class="skill-cloud">
+              <span>Java</span>
+              <span>Python</span>
+              <span>C</span>
+              <span>JavaScript</span>
+            </div>
           </div>
         </div>
+
+
+        <div class="skill-group">
+          <span class="skill-index">02</span>
+          <div>
+            <h3>Frontend & Web</h3>
+            <div class="skill-cloud">
+              <span>React.js</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Tailwind CSS</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="skill-group">
+          <span class="skill-index">03</span>
+          <div>
+            <h3>Backend & Data</h3>
+            <div class="skill-cloud">
+              <span>FastAPI</span>
+              <span>SQLite</span>
+              <span>API Integration</span>
+              <span>APScheduler</span>
+              <span>Semantic Search</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="skill-group">
+          <span class="skill-index">04</span>
+          <div>
+            <h3>Robotics & Hardware</h3>
+            <div class="skill-cloud">
+              <span>ROS 2</span>
+              <span>Gazebo</span>
+              <span>CoppeliaSim</span>
+              <span>Arduino</span>
+              <span>Computer Vision</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="skill-group">
+          <span class="skill-index">05</span>
+          <div>
+            <h3>Tools</h3>
+            <div class="skill-cloud">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>VS Code</span>
+              <span>Fusion 360</span>
+              <span>SolidWorks</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="skill-group">
+          <span class="skill-index">06</span>
+          <div>
+            <h3>Professional</h3>
+            <div class="skill-cloud">
+              <span>Leadership</span>
+              <span>Problem Solving</span>
+              <span>Technical Documentation</span>
+              <span>Cross-functional Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EDUCATION -->
+<section class="section education-section" id="education">
+
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="section-number">05</span>
+      <div>
+        <p class="eyebrow">EDUCATION</p>
+        <h2>Learning, <span>building, evolving.</span></h2>
       </div>
     </div>
-  </section>
+
+
+    <div class="education-grid">
+
+      <article class="education-card current reveal">
+
+        <div class="education-year">2024 — 2028</div>
+
+        <div class="education-main">
+          <span class="education-type">UNDERGRADUATE</span>
+
+          <h3>B.Tech / B.E. — Computer Science Engineering</h3>
+
+          <p class="institution">
+            Pillai College of Engineering · Mumbai, India
+          </p>
+
+          <div class="education-highlight">
+            <strong>9.78</strong>
+            <span>Average SGPI through Semester 4</span>
+          </div>
+        </div>
+
+      </article>
+
+
+      <article class="education-card reveal">
+
+        <div class="education-year">2022 — 2024</div>
+
+        <div class="education-main">
+          <span class="education-type">HIGHER SECONDARY</span>
+
+          <h3>HSC — Science</h3>
+
+          <p class="institution">
+            Ramnarain Ruia College · Mumbai, India
+          </p>
+
+          <div class="education-metrics">
+            <span><strong>86.17%</strong> HSC</span>
+            <span><strong>96.27</strong> MHT-CET percentile</span>
+          </div>
+        </div>
+
+      </article>
+
+
+      <article class="education-card reveal">
+
+        <div class="education-year">2023</div>
+
+        <div class="education-main">
+          <span class="education-type">SUMMER PROGRAM</span>
+
+          <h3>Young Technology Scholars</h3>
+
+          <p class="institution">
+            Plaksha University · Punjab, India
+          </p>
+
+          <p class="education-description">
+            Selected for a 15-day technology program and collaborated
+            on an ECG monitoring system using biosensors,
+            signal processing and microcontrollers.
+          </p>
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- LEADERSHIP + ACHIEVEMENT -->
+<section class="section recognition-section">
+
+  <div class="container">
+
+    <div class="recognition-grid">
+
+      <div class="recognition-card reveal">
+
+        <div class="recognition-icon">★</div>
+
+        <div>
+          <span class="eyebrow">RECOGNITION</span>
+          <h3>EY Foundation Scholar</h3>
+
+          <p>
+            Awarded a merit-based scholarship by the EY Foundation
+            for academic excellence after Class 10.
+          </p>
+
+          <span class="recognition-date">JUL 2022</span>
+        </div>
+
+      </div>
+
+
+      <div class="recognition-card reveal">
+
+        <div class="recognition-icon">◎</div>
+
+        <div>
+          <span class="eyebrow">LEADERSHIP</span>
+          <h3>All-Girls Robotics Team Lead</h3>
+
+          <p>
+            Led a 6-member FIRST Tech Challenge programming team,
+            combining technical development with team leadership
+            across two competition seasons.
+          </p>
+
+          <span class="recognition-date">2021 — 2023</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+
+  <div class="container">
+
+    <div class="contact-card reveal">
+
+      <div class="contact-content">
+
+        <span class="eyebrow">06 · LET'S CONNECT</span>
+
+        <h2>
+          Have an idea?<br>
+          <span>Let's build it.</span>
+        </h2>
+
+        <p>
+          I'm open to internships, technical collaborations,
+          interesting projects and conversations around software,
+          robotics and technology.
+        </p>
+
+        <div class="contact-actions">
+
+          <a href="mailto:salonikori1314@gmail.com"
+             class="btn btn-light">
+            Email me <span>↗</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/saloni-kori-860b86261"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="btn btn-outline-light">
+            LinkedIn <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="contact-details">
+
+        <div class="contact-detail">
+          <span>EMAIL</span>
+          <a href="mailto:salonikori1314@gmail.com">
+            salonikori1314@gmail.com
+          </a>
+        </div>
+
+        <div class="contact-detail">
+          <span>PHONE</span>
+          <a href="tel:+917400294248">
+            +91 74002 94248
+          </a>
+        </div>
+
+        <div class="contact-detail">
+          <span>LOCATION</span>
+          <p>Mumbai, India</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+```
+
+  </main>
 
   <!-- Footer -->
+
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Saloni Kori. All rights reserved.</p>
-      <p>Passionate about technology, leadership, and making a positive impact.</p>
-    </div>
+
+```
+<div class="container footer-inner">
+
+  <div>
+    <strong>Saloni Kori</strong>
+    <span>Software · Robotics · Systems</span>
+  </div>
+
+  <p>
+    © <span id="year"></span> Saloni Kori
+  </p>
+
+  <div class="footer-links">
+    <a href="#home">Back to top ↑</a>
+    <a href="https://www.linkedin.com/in/saloni-kori-860b86261"
+       target="_blank"
+       rel="noopener noreferrer">
+      LinkedIn ↗
+    </a>
+  </div>
+
+</div>
+```
+
   </footer>
 
-  <script src="script.js"></script>
-</body>
+  <!-- Back to top -->
 
+  <button class="back-to-top" aria-label="Back to top">
+    ↑
+  </button>
+
+  <!-- Project modal -->
+
+  <div class="project-modal" aria-hidden="true">
+
+```
+<div class="modal-overlay"></div>
+
+<div class="modal-content">
+
+  <button class="modal-close" aria-label="Close project">
+    ×
+  </button>
+
+  <span class="modal-label"></span>
+
+  <h2 class="modal-title"></h2>
+
+  <p class="modal-description"></p>
+
+  <div class="modal-tech"></div>
+
+</div>
+```
+
+  </div>
+
+  <div class="toast" id="toast">
+    Email copied to clipboard
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
